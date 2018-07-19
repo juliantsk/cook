@@ -43,10 +43,12 @@ class ClassPkgs extends Component {
 
 const ProductList = ({ classes }) =>
   <Row>
+    <div id="menuCardDiv">
      {Object.keys(classes).map(key => 
      (classes[key].category === "Package") ? 
      <MenuCard key={key} title={classes[key].title} description={classes[key].description} price={classes[key].price}/> : ""
      )}
+     </div>
     </Row>
 
 export default ClassPkgs;

@@ -17,3 +17,10 @@ h2 {
   width: 300px;
   margin: 30px auto;
 }
+
+#menuCardDiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
