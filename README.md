@@ -6,9 +6,9 @@ Cooky is a full-stack web application to provide any chef with the means to have
 
 ## Built With
 
-* only React (create-react-app)
-* firebase 5.0.0
-* react-router 4.2.0
+* React (create-react-app)
+* Firebase 5.0.0
+* React-Router 4.2.0
 
 ## Features
 
